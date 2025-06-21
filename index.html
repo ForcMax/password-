@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Sistem Max</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login Sistem Max</h2>
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+      <p class="error-message" id="error"></p>
+    </form>
+  </div>
 
+  <div class="table-container" id="dataTable" style="display: none;">
+    <h2>Maklumat Tersimpan</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Password</th>
+          <th>App</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>kxkx123</td>
+          <td>KLM776</td>
+          <td>Roblox</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
